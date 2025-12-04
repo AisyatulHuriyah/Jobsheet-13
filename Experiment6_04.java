@@ -1,11 +1,11 @@
 import java.util.Scanner;
 public class Experiment6_04 {
-    static int calculateArea (int 1, int w) {
-        int area = 1*w;
+    static int calculateArea (int l, int w) {
+        int area = l*w;
         return area;
     }
-    static int calculateVolume (int 1, int w, int h) {
-        int vol = calculateArea(1, w)*h;
+    static int calculateVolume (int l, int w, int h) {
+        int vol = calculateArea(l, w)*h;
         return vol ;  
     }
     public static void main(String[] args) {
